@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 140, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Chacha%20Tech/Desktop/futureAI/future-ai/lib/inngest/client.js"],"sourcesContent":["import { Inngest } from \"inngest\";\r\n\r\nexport const inngest = new Inngest({\r\n  id: \"career-coach\", // Unique app ID\r\n  name: \"Career Coach\",\r\n});"],"names":[],"mappings":";;;AAAA;;AAEO,MAAM,UAAU,IAAI,kIAAA,CAAA,UAAO,CAAC;IACjC,IAAI;IACJ,MAAM;AACR","debugId":null}},
+    {"offset": {"line": 149, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 155, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Chacha%20Tech/Desktop/futureAI/future-ai/app/api/inngest/route.js"],"sourcesContent":["import { serve } from \"inngest/next\";\r\n\r\nimport { inngest } from \"@/lib/inngest/client\";\r\n\r\nexport const { GET, POST, PUT } = serve({\r\n  client: inngest,\r\n  functions: [],\r\n});"],"names":[],"mappings":";;;;;AAAA;AAEA;;;AAEO,MAAM,EAAE,GAAG,EAAE,IAAI,EAAE,GAAG,EAAE,GAAG,CAAA,GAAA,iIAAA,CAAA,QAAK,AAAD,EAAE;IACtC,QAAQ,0HAAA,CAAA,UAAO;IACf,WAAW,EAAE;AACf","debugId":null}},
+    {"offset": {"line": 168, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

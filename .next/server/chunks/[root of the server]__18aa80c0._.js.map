@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 124, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Chacha%20Tech/Desktop/futureAI/future-ai/app/api/inngest/route.js"],"sourcesContent":["import { serve } from \"inngest/next\";\r\n\r\nimport { inngest } from \"../../lib/inngest/client\";\r\n\r\nimport { helloWorld } from \"@/lib/inngest/functions\";\r\n\r\nexport const { GET, POST, PUT } = serve({\r\n  client: inngest,\r\n  functions: [\r\n    helloWorld ,\r\n  ],\r\n});"],"names":[],"mappings":";;;;;AAAA;;;;;;;;;;;;;;AAMO,MAAM,EAAE,GAAG,EAAE,IAAI,EAAE,GAAG,EAAE,GAAG,CAAA,GAAA,iIAAA,CAAA,QAAK,AAAD,EAAE;IACtC,QAAQ;IACR,WAAW;QACT;KACD;AACH","debugId":null}},
+    {"offset": {"line": 149, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
